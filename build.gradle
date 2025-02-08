@@ -25,6 +25,9 @@ dependencies {
 	//database
 	implementation 'org.springframework.data:spring-data-jdbc'
    	implementation 'com.h2database:h2'
+
+	//security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
 
 tasks.named('test') {
